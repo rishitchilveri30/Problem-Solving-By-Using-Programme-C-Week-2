@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
  {
-    float base, height, area;
+    int b,h,a;
     printf("Enter base and height: ");
-    scanf("%f %f", &base, &height);
-    area = base * height;
-    printf("Area of Parallelogram = %f\n", area);
+    scanf("%d %d", &b, &h);
+    area = b*h;
+    printf("Area of Parallelogram = %d\n",a);
     return 0;
 }
 
