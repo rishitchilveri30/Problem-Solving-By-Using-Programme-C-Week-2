@@ -9,5 +9,5 @@ int main()
 	printf("product is:%d\n",a*b);
 	printf("quotient is:%d\n",a/b);
 	printf("remainder is:%d\n",a%b);
-	
+	return 0;
 }
