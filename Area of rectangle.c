@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
  {
-    float length, breadth, area;
+    int l,b,a;
     printf("Enter length and breadth: ");
-    scanf("%f %f", &length, &breadth);
-    area = length * breadth;
-    printf("Area of Rectangle = %.2f\n", area);
+    scanf("%d %d", &l, &b);
+    area = l*b;
+    printf("Area of Rectangle = %d\n",a);
     return 0;
 }
